@@ -15,20 +15,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
+
         window = UIWindow(frame: UIScreen.main.bounds)
-        
+
         let nav = UINavigationController()
         nav.viewControllers = [HomeViewController()]
-        
+
         if UserDefaults.standard.array(forKey: "responses") == nil {
             UserDefaults.standard.set([[String:String]](), forKey: "responses")
             UserDefaults.standard.synchronize()
         }
-        
+
         window!.rootViewController = nav
         window!.makeKeyAndVisible()
-        
+
         return true
     }
 
@@ -56,4 +56,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
