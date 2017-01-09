@@ -394,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "goodcall-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "strangerware.goodcall-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +407,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "goodcall-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "strangerware.goodcall-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -486,6 +488,7 @@
 				9A90E59F1E0EFD630083D809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A90E5A01E0EFD630083D809 /* Build configuration list for PBXNativeTarget "goodcall-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +497,7 @@
 				9A90E5A21E0EFD630083D809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A90E5A31E0EFD630083D809 /* Build configuration list for PBXNativeTarget "goodcall-iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +506,7 @@
 				9A90E5A51E0EFD630083D809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
