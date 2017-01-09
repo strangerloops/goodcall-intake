@@ -83,9 +83,9 @@ class HomeViewController: UIViewController {
 
             let task = session.dataTask(with: request as URLRequest, completionHandler: {data, response, error -> Void in
                 if (error != nil) {
-                    self.present(Config.alert(message: (error?.localizedDescription)!), animated: true)
+                    Config.alert(message: (error?.localizedDescription)!, viewController: self)
                 } else if (response as? HTTPURLResponse)?.statusCode != 204 {
-                    self.present(Config.alert(message: "\((response as? HTTPURLResponse)?.statusCode)"), animated: true)
+                    Config.alert(message: "\((response as? HTTPURLResponse)?.statusCode)", viewController: self)
                 } else {
                     Config.clearArchive()
                     self.viewWillAppear(true)
