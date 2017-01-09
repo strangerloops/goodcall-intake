@@ -1,3 +1,4 @@
+
 //
 //  Config.swift
 //  goodcall-ios
@@ -57,13 +58,9 @@ class Config: NSObject {
     }
     
     class func alert(message: String, viewController: UIViewController){
-        if objc_getClass("UIAlertController") != nil {
-            let alert = UIAlertController(title: "Problem Happened", message: message, preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "ok", style: UIAlertActionStyle.default, handler: nil))
-            viewController.present(alert, animated: true)
-        } else {
-            let alert = UIAlertView(title: "Problem Happened", message: message, delegate: self, cancelButtonTitle: "ok")
-            alert.show()
-        }
+        
+        let alert = UIAlertView(title: "Problem Happened", message: message, delegate: self, cancelButtonTitle: "ok")
+        alert.show()
+        
     }
 }
