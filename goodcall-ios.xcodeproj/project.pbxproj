@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					9A90E5741E0EFD630083D809 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 966WVVLVSB;
 						ProvisioningStyle = Automatic;
 					};
 					9A90E5881E0EFD630083D809 = {
@@ -393,8 +394,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 966WVVLVSB;
 				INFOPLIST_FILE = "goodcall-ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "strangerware.goodcall-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,8 +408,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 966WVVLVSB;
 				INFOPLIST_FILE = "goodcall-ios/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "strangerware.goodcall-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
